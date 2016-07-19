@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+                
+    <!--Sweet Alert-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">                   
+</head> 
+  
+<body>
+
+    <script>
+    $(document).ready(function(){$('body').hide().fadeIn(2000);});
+
+    function alert() {
+        swal({
+        imageUrl: 'img/botty.jpg',
+        title: "Add Recaptain To Your Team!",
+        text: "From your slack channel, go to custom integrations and create a custom bot, then paste your bot token into here!",
+        type: "input",
+        showCancelButton: true,
+        closeOnConfirm: false,
+        inputPlaceholder: "Insert Your Custom Bot Token Here"
+    }, function (inputValue) {
+        if (inputValue === false) return false;
+        if (inputValue === "") {
+        swal.showInputError("You need to write something!");
+        return false
+        }
+        swal("All set!", "Double Check Your Token Is Correct \n " +     inputValue, "success");
+});
+
+    }
+    </script>
+    <!-- Header -->
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <img src="img/botty.jpg" alt="bot" style="width:104px;height:160px;">
+                        <h1>Recaptain</h1>
+                        <h3>Powered by ReadyTalk</h3>
+                        <hr class="intro-divider">
+                        <button class="btn btn-default btn-lg" onClick="alert();">Add Recaptain To Your Team</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <a name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="col-lg-5 col-sm-6">
+                <h3>Spend Less Time In Slack</h3>
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <p class="lead">Focus more of your time on your work! Recap missed messages in an instant instead of scrolling through missed messages"
+                </p>
+            </div>
+             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="image-responsive" src="img/recaptain.png" alt="recaptain"> 
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section-b">
+
+        <div class="container">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                <h3>Get Channel Summaries In An Instant</h3>
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <p class="lead">Recaptain uses Watsons Language API to find the most important messages that you've missed. With built in keyword functionality as well, you'll never miss another important message again.</p>
+            </div>
+            <div class="col-lg-5 col-sm-pull-5 col-sm-6">
+                <img class="image-responsive" src="img/midbot.jpeg" alt="midbot"> 
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mid-header">
+
+        <div class="container">
+            <div class="clearfix"></div>
+            <div class="mid-message">
+            <h1>Easy and Versitile Usage</h1><br>
+            <h3>Recaptain allows you to recap mutliple channels at once.<br><br> Specify how far back you want your recap, going as far back as your slack message history will allow. <br><br> Never miss another important message </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="tutorial-header">
+
+        <div class="container">
+            <div class="col-lg-5 col-sm-6">
+                <h3>How to Set-up Recaptain</h3>
+                <hr class="tutorial-heading-spacer">
+                <div class="clearfix"></div>
+                <p class="lead">Start by going to Slack channel and going to your #General channel <br> <br>
+                    After that you'll want to go to the settings button by the search bar at top, and click "Add an app or integration"
+                </p>
+            </div>
+             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="image-responsive" src="img/settings.png" alt="settings"> 
+            </div>
+        </div>
+    </div>
+
+    <div class="tutorial-header-b">
+
+        <div class="container">
+            <div class="col-lg-5 col-sm-6">
+                <div class="clearfix"></div>
+                <p class="lead">Next, go to the top right and click on Build.<br> <br>
+                    After that, click "Make a Custom Integration"
+                </p>
+            </div>
+             <div class="col-lg-6 col-sm-6">
+                <img class="image-responsive" src="img/build.png" alt="build"> 
+            </div>
+        </div>
+    </div>
+
+    <div class="tutorial-header">
+
+        <div class="container">
+            <div class="col-lg-5 col-sm-6">
+                <div class="clearfix"></div>
+                <p class="lead">Then, click on Bots and fill in a username for the bot (Recaptain)<br> <br>
+                    Finally, take the API token and copy/paste it into our form right here on the site!
+                </p>
+            </div>
+             <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                <img class="image-responsive" src="img/token.png" alt="token"> 
+            </div>
+        </div>
+    </div>
+
+    <div class="end-header">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                <h1>Try Recaptain Today!</h1>
+                </div>
+             <div class="col-lg-6 col-sm-pull-1">
+                <button class="btn btn-default btn-lg" onClick="alert();" style="float:right;">Add Recaptain To Your Team</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

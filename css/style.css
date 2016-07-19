@@ -1,0 +1,162 @@
+body,
+html{
+	width: 100%;
+	body: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Lato", "Helvetica Neue",Helvetica,Arial,sans-serif
+	font-weight: 700;
+}
+.intro-header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #414a4c;
+	background: url(../img/intro-banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.intro-message {
+	postition: relative;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+	margin: 0;
+	font-size: 5em;
+}
+
+.intro-divider {
+	width: 350px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+
+.content-section-a{
+	padding: 50px 0;
+	background-color: #f8f8f8;
+}
+
+.content-section-b{
+	padding: 50px 0;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.mid-header{
+	text-align: center;
+	padding: 50px;
+	color: #ffffff;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	background: 
+		linear-gradient(
+			rgba(0,0,0,0.5),
+			rgba(0,0,0,0.5)
+			),
+		url(../img/mid-banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.intro-message {
+	postition: relative;
+	padding-top: 10%;
+	padding-bottom: 20%;
+}
+
+.end-message > h3 {
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.end-message > h1 {
+	margin: 0;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	font-size: 3em;
+}
+
+.end-header{
+	padding: 100px 0;
+	color: #f8f8f8;
+	background: 
+		linear-gradient(
+			rgba(0,0,0,0.5),
+			rgba(0,0,0,0.5)
+			),
+		url(../img/slack.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.end-header h1{
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-size: 3em;
+}
+
+.intro-message {
+	postition: relative;
+	padding-top: 10%;
+	padding-bottom: 20%;
+}
+
+.mid-message > h3 {
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.mid-message > h1 {
+	margin: 0;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	font-size: 3em;
+}
+
+.tutorial-header {
+	padding: 50px 0;
+	background-color: #f8f8f8;
+}
+
+.tutorial-header-b {
+	padding: 50px 0;
+}
+
+.tutorial-heading-spacer{
+	float: left;
+	width: 300px;
+	border-top: 3px solid #e7e7e7;
+}
+
+
+.section-heading {
+	margin-bottom: 20px;
+}
+
+.section-heading-spacer{
+	float: left;
+	width: 400px;
+	border-top: 2px solid #e7e7e7;
+}
+
+
+.info-heading{
+	margin-bottom: 50px;
+}
+
+
+.network-name{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.lead{
+	font-size: 18px;
+	font-weight: 400;
+}
+
