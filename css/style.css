@@ -121,6 +121,26 @@ h6 {
 	font-size: 3em;
 }
 
+.final {
+	float: right;
+	margin-top: 0;
+}
+
+@media(max-width: 767px){
+	.end-header h1 {
+		margin: 0;
+		text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+		font-size: 3em;
+		text-align: left;
+	}
+	ul.final{
+		display: block;
+		margin-bottom: 0px;
+		padding-top: 40px;
+		float: center;
+	}
+}
+
 .intro-message {
 	postition: relative;
 	padding-top: 10%;
