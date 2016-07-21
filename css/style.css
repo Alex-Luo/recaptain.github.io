@@ -249,3 +249,9 @@ h6 {
     outline: 0 none;
 }
 
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
