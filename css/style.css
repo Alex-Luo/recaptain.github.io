@@ -46,7 +46,7 @@ h6 {
 		padding-bottom: 15%;
 	}
 	.intro-message > h1 {
-		font-size: 3em;
+		max-width: 750px;
 	}
 	.intro-divider {
 		width: 50%
