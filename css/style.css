@@ -154,7 +154,13 @@ h6 {
 
 .section-heading-spacer{
 	float: left;
-	width: 400px;
+	width: 250px;
+	border-top: 2px solid #e7e7e7;
+}
+
+.section-heading-spacer-b{
+	float: left;
+	width: 275px;
 	border-top: 2px solid #e7e7e7;
 }
 
