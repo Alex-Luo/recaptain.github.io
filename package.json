@@ -1,0 +1,23 @@
+{
+  "name": "recaptain.github.io",
+  "version": "1.0.0",
+  "description": "Landing page for Recaptain, the slackbot.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Luo/recaptain.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-Luo/recaptain.github.io/issues"
+  },
+  "homepage": "https://github.com/Alex-Luo/recaptain.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
